@@ -1,6 +1,6 @@
 # To do App using Reusable component
 
-This is a To do app which is made usingt react and typescript. 
+This is a To do app which is made using react and typescript. 
 Currently, which contains two sections for work :
 
 - To be done 
