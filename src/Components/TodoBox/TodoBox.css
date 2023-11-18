@@ -1,0 +1,50 @@
+.Todobox-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vh;
+    background-color: #f2f0f9;
+    padding: 10px;
+    box-shadow: 3px 4px 4px #ebe9f1;
+    border-radius: 2%;
+    gap: 10px;
+
+}
+.boxtitle{
+    display: flex;
+    justify-content: center;
+    color: #3f2e79;
+    font-weight: 600;
+    width: 100%;
+    font-size: larger;
+    background-color: #ffffffd4;
+    box-shadow: 2px 2px 3px #e5e5f2;
+  border-radius: 5px;
+}
+.items-wrapper{
+    width: 100%;
+   color: darkslateblue;
+   font-size: 18px;
+   overflow: auto;
+   height: 42vh;
+}
+.items-wrapper > ul{
+margin: 0px;
+}
+.action-pane{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+}
+.listitem{
+        list-style-type: none;
+        padding: 5px;
+}
+.button-wrapper{
+  background-color: #ffffffd4;
+    box-shadow: 2px 2px 3px #e5e5f2;
+  border-radius: 5px;
+  color: darkslateblue;
+  font-weight: 600;
+}
